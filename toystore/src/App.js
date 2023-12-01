@@ -15,18 +15,58 @@ import Cream from './Components/Cream';
 import Footer from './Components/Footer';
 import Trackorder from './Components/Trackorder';
 import Account from './Components/Account';
+import Wishlist from './Components/Wishlist';
 function App() {
   return (
-    <div>
+    <div className=''>
+       <Navbar/>
+       <Home/>
+      {/* <Age/>
+      <Category/>
+      <Brand/>
+      <Character/>
+      <Color/>
+      <Legos/>
+      <Toys/>
+      <Arrival/>
+      <Sellers/>
+      <Cream/> */}
+<Footer/> 
+      
+     
+    
 
-<Navbar/>
+      {/* <Router>
+        <Routes>
+          <Route path="/" element={<Navbar/>} />
+            <Home/>
+      <Age/>
+      <Category/>
+      <Brand/>
+      <Character/>
+      <Color/>
+      <Legos/>
+      <Toys/>
+      <Arrival/>
+      <Sellers/>
+      <Cream/>
+      <Footer/>  
+
+          <Route path="/Track" element={<Trackorder />} />
+          <Route path="/Accout" element={<Account/>} />
+          <Route path="/Wish" element={<Wishlist/>} />
+        </Routes>
+
+      </Router> */}
+
+      {/* <Navbar/>
 <Account/>
-<Footer/>
+<Footer/> */}
 
       {/* <Navbar/>
       <Trackorder/> */}
       {/* <Router> */}
-        {/* <Navbar/>
+      {/* <Navbar/>
       <Home/>
       <Age/>
       <Category/>
@@ -45,7 +85,7 @@ function App() {
       <Route path="/track-order"element={<Trackorder/>}/>
       </Routes>
       
-    </Router> */} 
+    </Router> */}
       {/* <Navbar/>
       <Home/>
       <Age/>

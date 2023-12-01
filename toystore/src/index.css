@@ -2,16 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.image {
+  border: 1px solid #000;
+  border-radius: 8px;
+  width: 100%;
+  height: 200px; /* Set the fixed height for all images */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.dropdown {
+  z-index: 1000; /* Adjust the value as needed */
+}
+
+
+
+.home-container {
+  overflow: hidden; /* or overflow: auto; depending on your layout */
 }

@@ -8,7 +8,7 @@ function Home() {
         marginTop: '50px', 
       };
   return (
-    <div style={sliderStyle}>
+    <div>
     <HeroSlider
       height={'100vh'}
       autoplay
