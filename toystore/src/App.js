@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Age from './Components/Age';
@@ -18,55 +18,10 @@ import Account from './Components/Account';
 import Wishlist from './Components/Wishlist';
 function App() {
   return (
-    <div className=''>
-       <Navbar/>
-       <Home/>
-      {/* <Age/>
-      <Category/>
-      <Brand/>
-      <Character/>
-      <Color/>
-      <Legos/>
-      <Toys/>
-      <Arrival/>
-      <Sellers/>
-      <Cream/> */}
-<Footer/> 
-      
-     
     
 
-      {/* <Router>
-        <Routes>
-          <Route path="/" element={<Navbar/>} />
-            <Home/>
-      <Age/>
-      <Category/>
-      <Brand/>
-      <Character/>
-      <Color/>
-      <Legos/>
-      <Toys/>
-      <Arrival/>
-      <Sellers/>
-      <Cream/>
-      <Footer/>  
-
-          <Route path="/Track" element={<Trackorder />} />
-          <Route path="/Accout" element={<Account/>} />
-          <Route path="/Wish" element={<Wishlist/>} />
-        </Routes>
-
-      </Router> */}
-
-      {/* <Navbar/>
-<Account/>
-<Footer/> */}
-
-      {/* <Navbar/>
-      <Trackorder/> */}
-      {/* <Router> */}
-      {/* <Navbar/>
+      <div>
+       <Navbar/>
       <Home/>
       <Age/>
       <Category/>
@@ -78,27 +33,7 @@ function App() {
       <Arrival/>
       <Sellers/>
       <Cream/>
-      <Footer/>
-
-      <Routes>
-      
-      <Route path="/track-order"element={<Trackorder/>}/>
-      </Routes>
-      
-    </Router> */}
-      {/* <Navbar/>
-      <Home/>
-      <Age/>
-      <Category/>
-      <Brand/>
-      <Character/>
-      <Color/>
-      <Legos/>
-      <Toys/>
-      <Arrival/>
-      <Sellers/>
-      <Cream/>
-      <Footer/> */}
+      <Footer/> 
     </div>
   );
 }

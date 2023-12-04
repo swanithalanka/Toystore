@@ -13,7 +13,7 @@ function Dropdowncat() {
 
       
   return (
-    <div ref={dropdownRef} className="fixed top-14 left-6 h-96 w-full bg-white p-4 flex flex-row space-x-8">
+    <div ref={dropdownRef} className="fixed top-14 left-6 h-96 w-full bg-white p-4 flex flex-row space-x-8" style={{ zIndex: 1000 }} >
         
         <div className="mb-4">
         <a
